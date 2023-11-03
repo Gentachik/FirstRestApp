@@ -1,10 +1,8 @@
 package com.example.FirstRestApp.reprositories;
 
-import com.example.FirstRestApp.models.Person;
+import com.example.FirstRestApp.models.Measurement;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PeopleRepository extends JpaRepository<Person, Integer> {
-
-}
+public interface MeasurementsRepository extends JpaRepository<Measurement, Integer> {}
